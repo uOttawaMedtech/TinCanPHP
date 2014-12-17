@@ -1,7 +1,7 @@
 {
-    "name": "rusticisoftware/tincan",
+    "name": "uottawamedtech/tincan",
     "type": "library",
-    "description": "Tin Can API Library",
+    "description": "A fork of the original Tin Can API Library, adapted to query from Saltbox's Wax LRS",
     "homepage": "http://rusticisoftware.github.io/TinCanPHP/",
     "keywords": [
         "tin can",
@@ -9,7 +9,9 @@
         "xapi",
         "experience api",
         "e-learning",
-        "scorm"
+        "scorm",
+        "wax lrs",
+        "waxlrs"
     ],
     "license": "Apache-2.0",
     "authors": [
@@ -17,11 +19,15 @@
             "name": "Brian J. Miller",
             "email": "brian.miller@tincanapi.com",
             "role": "Developer"
+        },
+        {
+            "name": "Pascal Laliberté",
+            "email": "plaliberte@uOttawa.ca",
+            "role": "Developer"
         }
     ],
     "support": {
-        "email": "support@tincanapi.com",
-        "issues": "https://github.com/RusticiSoftware/TinCanPHP/issues"
+        "issues": "https://github.com/uOttawaMedtech/TinCanPHP/issues"
     },
     "require": {
         "php": ">=5.4.0"

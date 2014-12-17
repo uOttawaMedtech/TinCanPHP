@@ -1,6 +1,6 @@
-A PHP library for implementing Tin Can API.
+A fork of the [original TinCanPHP library](https://github.com/RusticiSoftware/TinCanPHP), adapted to query statements from Saltbox's Wax LRS. For details on the problem and the implemented solution, see the [discussion over in the original project](https://github.com/RusticiSoftware/TinCanPHP/pull/17).
 
-[![Build Status](https://travis-ci.org/RusticiSoftware/TinCanPHP.png)](https://travis-ci.org/RusticiSoftware/TinCanPHP)
+[![Build Status](https://travis-ci.org/uOttawaMedtech/TinCanPHP.svg)](https://travis-ci.org/uOttawaMedtech/TinCanPHP)
 
 For hosted API documentation, basic usage instructions, supported version listing, etc. visit the main project website at:
 
@@ -14,10 +14,10 @@ Requires PHP 5.4 or later. (If you must run something older you should look at t
 
 ### Installation
 
-TinCanPHP is available via [Composer](http://getcomposer.org).
+This fork of TinCanPHP is available via [Composer](http://getcomposer.org).
 
 ```
-php composer.phar require rusticisoftware/tincan:~0.0
+php composer.phar require uottawamedtech/tincan:~0.0
 ```
 
 With the package installed require the Composer autoloader:
